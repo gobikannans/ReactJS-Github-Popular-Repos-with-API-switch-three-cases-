@@ -1,0 +1,43 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-weight: bold;
+  font-family: 'Lobster';
+  font-size: 40px;
+}
+.language-list-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.repository-list-container {
+  width: 50%;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.img-failure {
+  height: 50vh;
+}
+
+@media screen and (max-width: 576px) {
+  .repository-list-container {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+  }
+}
